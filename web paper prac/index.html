@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        overflow-x:hidden;
+        padding: 0;
+        margin: 0;
+        /* background-color: black; */
+    }
+
+    #navbar{
+        display: inline-block;
+        background-color: white;
+        /* padding: 10px;s */
+        /* margin-top: 10px; */
+        z-index: 2;
+        position: sticky;
+        top:0px;
+        /* overflow: hidden; */
+        color: black(255, 255, 255);
+        height: 70px;
+        width:1550px;
+    }
+    div>ol{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        /* padding: 10px; */
+        /* position: sticky; */
+        /* margin: 10px 10px; */
+        justify-content: center ;
+        position: relative;
+    }
+    div>ol>li{
+        padding-left: 10px;
+        padding-right: 10px ;
+    }
+    .navitems{
+        margin: 5px 5px;
+    }
+
+    #logo2{
+        position: relative;
+        top:10px;
+        left: 4vw;
+    }
+    #x{
+        position: relative;
+        left: 4vw;
+        bottom: 0.7vw;
+        margin: 10px;
+        font-weight:bolder;
+    }
+    ol>li{
+        position:relative ;
+        bottom: 50px;
+    }
+    .navitems:hover{
+        color: orange
+    }
+    #s1{
+       position: absolute;
+       bottom: 20px;
+       left: 85vw;
+       top: 15px;
+       height: 40px;
+       width:160px;
+    border-color:rgb(58, 124, 102);
+    border-radius: 42%;
+    }
+    #search{
+        position: relative;
+        bottom: 100px;
+        float: right;
+        margin-right: 300px;
+        /* top: 2px; */
+    }
+    #cart{
+        position: relative;
+        bottom: 100px;
+        float: right;
+        margin-right:10px ;
+    }
+    #contact{
+        position: relative;
+        bottom: 100px;
+        float: right;
+        margin-right: 20px;
+
+    }
+    #background{
+        height: 68vh;
+        width: 100vw;
+        border: 1px solid;
+    }
+    #org{
+        color: orange;
+    }
+    #h11{
+        position: relative;
+        margin-left: 100px;
+        bottom: 350px;
+    }
+    #body11{
+        position: relative;
+        margin-left: 150px;
+        bottom: 320px;
+        font-weight: bolder;
+    }
+    #part2{
+        height: 50vh;
+        width: 100vw;
+        border: 3px solid;
+        background-color: grey;
+    }
+    #h22{
+        position: relative;
+        margin-left: 600px;
+    }
+    #man{
+        border-radius: 50%;
+        margin-left: 750px;
+    }
+    #rev{
+        background-color: orange;
+    }
+    #john{
+        margin-left: 700px;
+    }
+    #p22{
+        margin-left: 480px;
+    }
+    #star{
+        position: relative;
+        margin-left: 680px;
+        bottom: 50px;
+        
+    }
+    #h33{
+        margin-left: 700px;
+    }
+    #blogs{
+        background-color: orange;
+    }
+    #part31{
+        display: flex;
+        margin-left: 210px;
+    }
+    .cards{
+        /* margin: 40px; */
+        padding: 20px;
+        margin-left: 10px;
+    }
+    #t{
+        position: relative;
+        height: 50vh;
+        width: 20vw;
+        border: 1px solid;
+        margin-top: 50px;
+        margin-right: 100px;
+        bottom: 12px;
+        /* margin-left: 50px; */
+        background-color: azure;
+    }
+    #y
+    {
+        height: 50vh;
+        
+        width: 20vw;
+        border: 1px solid;
+        position: relative;
+        margin-top: 40px;
+        margin-right: 100px;
+        font-weight: bolder;
+        background-color: azure;
+    }
+    #z{
+        height: 50vh;
+        
+        width: 20vw;
+        border: 1px solid;
+        position: relative;
+        margin-top: 40px;
+        margin-right: 100px;
+        font-weight: bolder;
+        background-color: azure;
+
+    }
+    #part3{
+        background-color: rgb(237, 229, 229);
+    }
+    #part4{
+        display: flex;
+    }
+    #r{
+
+        margin: 10px;
+        margin-left: 100px;
+    }
+    #m{
+        margin: 10px;
+        margin-left: 200px;
+    }
+    #n{
+        margin: 10px;
+        margin-left: 300px;
+    }
+    #btn1{
+        background-color: azure;
+    }
+    #btn1:hover{
+        background-color: orange;
+    }
+    .btn2{
+        background-color: rgb(240, 248, 255);
+        border: 3px solid;
+    }
+    .btn2:hover{
+        background-color: orange;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <span  id="logo1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQxAI3N6RoyMHYSPiZBcMz0v_UgL3ZVbRfew&usqp=CAU" id="logo2" height="50px"><span id="x">GROFERS ORGANIC</span></span>
+        <ol >
+            <li class="navitems">HOME</li>
+            <li class="navitems">FEATURES</li>
+            <li class="navitems">PRODUCTS</li>
+            <li class="navitems">CATEGORIES</li>
+            <li class="navitems">REVIEWS</li>
+            <li class="navitems">BLOGS</li>
+        </ol>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnjemyaF4e7zp5rAPi7imH0Nzo4UU0DJU-1w&usqp=CAU" alt="" height="30px" id="search">
+        <img src="https://c8.alamy.com/zooms/9/46c2639df39a4fe0b4d1f08c116e6f50/tcx640.jpg" alt="" height="30px" id="cart">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02b24v2SEXar7UdWCBgpSeVEGGGNGX9o9Bg&usqp=CAU" alt="" height="30px" id="contact">
+        
+        
+    </div>
+    <div id="background">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQdyqSeKXo9mjgO0xPGBpPyVUMLi634iZlSuewXiF1Fri3Ib_5RKC8C0dJ5jw9es5Qm68&usqp=CAU" alt="" width="1600vw" height="500px">
+        <h1 id="h11">
+            FRESH AND <span id="org"> ORGANIC</span> PRODUCTS FOR YOU
+        </h1>
+        <p id="body11">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Iste eaque quibusdam iusto delectus quos reiciendis aliquid quam blanditiis saepe libero.
+            <br>
+            <br>
+            <button id="btn1">SHOP NOW</button>
+        </p>
+
+    </div>
+    <div id="part2">
+        <h1 id="h22">
+            CUSTOMER'S <span id="rev">REVIEWS</span>
+        </h1>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm6X8o_dpHAhasJQXIWnVV4n8Ipp7SbBhl8g&usqp=CAU" alt="" id="man" height="100px">
+            <p id="p22">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, laborum culpa ut dignissimos et atque!
+            </p>
+            <h2 id="john">
+                JOHN DEO
+            </h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2G71VLFDfnVG4uPyDC1o3W57M96oe0JU_oQ&usqp=CAU" alt="" id="star" height="50px">
+        </div>
+
+    </div>
+    <div id="part3">
+        <h1 id="h33">
+            OUR <span id="blogs">BLOGS</span>
+        </h1>
+        <div id="part31">
+            <div  class="cards" id="t">
+                <img src="https://www.cdc.gov/foodsafety/images/comms/features/GettyImages-1247930626-500px.jpg?_=00453" alt="" height="200px">
+                <h3>FRESH AND ORGANIC VEGITABLES AND FRUITS</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quo.
+                </p>
+                <button class="btn2">READ MORE</button>
+            </div>
+            <div class="cards" id="y">
+                <img src="https://c.ndtvimg.com/2020-03/508i2o5g_fruits-veggies_625x300_23_March_20.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886" alt="" height="200px">
+                <h3>FRESH AND ORGANIC VEGITABLES AND FRUITS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ab.</p>
+                <button class="btn2">READ MORE</button>
+            </div>
+            <div class="cards" id="z">
+                <img src="https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg?w=2000" alt="" height="200px">
+                <h3>FRESH AND ORGANIC VEGITABLES AND FRUITS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, at?
+                </p>
+                <button class="btn2">READ MORE</button>
+            </div>
+        </div>
+    </div>
+    <div id="part4">
+        <div id="r">
+            <h4>
+                GROPHER'S ORGANIC
+            </h4>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br><br>Cupiditate dolorem natus similique at doloribus laborum.
+            </p>
+        </div>
+        <div id="m">
+            <h4>
+                CONTACT INFO
+            </h4>
+        
+            <p>123456767 <br><br>12234567<br><br>
+                    abcd@gmail.com
+            </p>
+        </div>
+        <div id="n">
+            <h4>
+                QUICK LINKS
+            </h4>
+            <p>
+                HOME <br><br>
+                features <br><br>
+                PRODUCTS <br><br>
+                categories <br><br>
+            </p>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
